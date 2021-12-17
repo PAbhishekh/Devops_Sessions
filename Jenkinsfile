@@ -4,9 +4,9 @@ pipeline {
     stage('s1') {
       agent any
       steps {
-        sh '''sh \'\'\'
+        sh '''
            echo \'this is from build1\'
-    \'\'\'
+ 
 '''
       }
     }
